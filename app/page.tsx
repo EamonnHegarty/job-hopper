@@ -5,6 +5,9 @@ import LandingImg from "../assets/main.svg";
 import Image from "next/image";
 import Link from "next/link";
 
+// green used for the color theme
+// #00BFA6
+
 export default function Home() {
   return (
     <main>
