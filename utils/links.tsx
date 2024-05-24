@@ -24,3 +24,5 @@ const links: NavLink[] = [
     icon: <Layers />,
   },
 ];
+
+export default links;
