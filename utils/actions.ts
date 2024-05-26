@@ -181,7 +181,7 @@ export async function getStatsAction(): Promise<{
 }
 
 export async function getChartsDataAction(): Promise<
-  Array<{ date: string; count: number }>
+  Array<{ status: string; count: number }>
 > {
   const userId = authenticateAndRedirect();
   const sixMonthsAgo = dayjs().subtract(6, "month").toDate();
@@ -199,18 +199,18 @@ export async function getChartsDataAction(): Promise<
     });
 
     let applicationsPerMonth = jobs.reduce((acc, job) => {
-      const date = dayjs(job.createdAt).format("MMM YY");
+      const status = job.status;
 
-      const existingEntry = acc.find((entry) => entry.date === date);
+      const existingEntry = acc.find((entry) => entry.status === status);
 
       if (existingEntry) {
         existingEntry.count += 1;
       } else {
-        acc.push({ date, count: 1 });
+        acc.push({ status, count: 1 });
       }
 
       return acc;
-    }, [] as Array<{ date: string; count: number }>);
+    }, [] as Array<{ status: string; count: number }>);
 
     return applicationsPerMonth;
   } catch (error) {
