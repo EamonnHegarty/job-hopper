@@ -1,4 +1,5 @@
 "use client";
+
 import JobCard from "./JobCard";
 import { useSearchParams } from "next/navigation";
 import { getAllJobsAction } from "@/utils/actions";
