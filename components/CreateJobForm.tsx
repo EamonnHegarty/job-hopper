@@ -22,6 +22,7 @@ function CreateJobForm() {
       position: "",
       company: "",
       location: "",
+      url: "",
       status: JobStatus.Pending,
       mode: JobMode.InOffice,
     },
