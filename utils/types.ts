@@ -22,7 +22,7 @@ export enum JobStatus {
 export enum JobMode {
   InOffice = "in office",
   Hybrid = "hybrid",
-  Remote = "remot",
+  Remote = "remote",
 }
 
 export const createAndEditJobSchema = z.object({
