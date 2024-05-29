@@ -2,17 +2,16 @@
 
 [Job Hopper](https://job-hopper.vercel.app/)
 
-## Introduction
-
-Welcome to Job Hopper, a modern web application designed to help you explore and manage job opportunities efficiently. This project was built to gain familiarity with cutting-edge technologies like Next.js, Shadcn, Prisma, and Clerk.
-
 ## Table of Contents
 
 1. [Introduction](#introduction)
 2. [Features](#features)
 3. [Technologies Used](#technologies-used)
 4. [Getting Started](#getting-started)
+## Introduction
 
+Welcome to Job Hopper, a modern web application designed to help you explore and manage job opportunities efficiently. This project was built to gain familiarity with cutting-edge technologies like Next.js, Shadcn, Prisma, and Clerk.
+If you use this app please not I am currently using a free tier on onrender which shuts down after 30 days. If you can not connect to the db in the live url please raise an issue and I will create a new connection. Plan to use vercels free tier in the future. 
 
 ## Features
 
