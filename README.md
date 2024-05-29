@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Job Hopper
+
+[Job Hopper](https://job-hopper.vercel.app/)
+
+## Introduction
+
+Welcome to Job Hopper, a modern web application designed to help you explore and manage job opportunities efficiently. This project was built to gain familiarity with cutting-edge technologies like Next.js, Shadcn, Prisma, and Clerk.
+
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [Getting Started](#getting-started)
+
+
+## Features
+
+- **Job Listings**: Place to keep track of all your job applications and their status. 
+- **User Authentication**: Secure sign-up and login with Clerk.
+- **Database Integration**: Persistent data storage using Prisma and a connected database.
+- **Responsive Design**: Mobile-first approach ensuring accessibility on all devices.
+- **Modern UI**: Sleek and intuitive user interface built with Shadcn.
+- **Track Applications**: Users can add job details, update statuses, and visualize their job application process with charts.
+
+## Technologies Used
+
+- **React**: A powerful JavaScript library for building user interfaces.
+- **Next.js**: A React framework with hybrid static & server rendering, smart bundling, route pre-fetching, and more.
+- **Shadcn**: A modern component library for building high-quality, accessible UI components.
+- **Prisma**: An open-source ORM for Node.js and TypeScript, making database management easy and type-safe.
+- **Clerk**: A complete user management solution providing authentication and user profiles.
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy of the project up and running, follow these simple steps.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Make sure you have the following installed:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Node.js (v14 or later)
+- npm (v6 or later) or yarn (v1.22 or later)
+- A PostgreSQL database or any other database supported by Prisma
