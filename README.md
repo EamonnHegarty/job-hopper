@@ -10,10 +10,7 @@
 4. [Getting Started](#getting-started)
 ## Introduction
 
-** DB is currently broken as PRISMA no longer offer their generous free tier - will hook this up to a new db in future 
-
 Welcome to Job Hopper, a modern web application designed to help you explore and manage job opportunities efficiently. This project was built to gain familiarity with cutting-edge technologies like Next.js, Shadcn, Prisma, and Clerk.
-If you use this app please not I am currently using a free tier on onrender which shuts down after 30 days. If you can not connect to the db in the live url please raise an issue and I will create a new connection. Plan to use vercels free tier in the future. 
 
 ## Features
 
