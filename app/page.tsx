@@ -17,10 +17,10 @@ export default function Home() {
             job<span className="text-primary"> tracking</span> app
           </h1>
           <p className="leading-loose max-w-md mt-4">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-            vel et blanditiis? Illo veniam ipsum enim, eaque blanditiis sequi ut
-            debitis nam eveniet doloribus unde! Facilis fugiat sint magnam
-            assumenda.
+            Simplify your job search with Job Hopper, the ultimate application
+            tracking system. Keep all your job applications organized in one
+            place, track their status, visualize your progress with interactive
+            charts, and never miss an interview opportunity again.
           </p>
           <Button asChild className="mt-4">
             <Link href="add-job">Get Started</Link>
